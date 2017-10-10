@@ -1,17 +1,160 @@
 <HTML>
-   <HEAD>
-   <TITLE>INFORMÁTICA 1</TITLE>
-   </HEAD>
-   <BODY>
-    <center><h1><font size=5>texto</font></h1></center>
-    <center>
-         <b><pre>texto</pre></b>
-    </center>
-      <q>test test test</q>
-      <p><u>abcdef</u></p>
-      <p><a href="https://www.google.com.ar/search?q=test&ie=utf-8&oe=utf-8&gws_rd=cr&dcr=0&ei=GRfUWc6tJoWymwGq3bKgAw"><img style="width:256px;height:256px" src="test.png" alt="test"></img></a></p>
-<p> <audio autoplay>
-   <source src="Typewriter-SoundBible.com-285954942.mp3" type="audio/mp3">
-   </audio></p>
-   </BODY>
- </HTML>
+	<HEAD>
+		<TITLE>INFORMÁTICA 1</TITLE>
+	</HEAD>
+	<BODY bgcolor="gray">
+		<center>
+			<h1>
+				<font size=5>
+					<b>
+						<q>SISTEMAS DE NUMERACIÓN</q>
+					</b>
+				</font>
+			</h1>
+		</center>
+		<p>
+			Un sistema de numeración es un conjunto de simbolos y reglas que permiten representar datos numéricos. La norma principal en un sistema de numeración posicional es que <b><em>un mismo símbolo tiene distinto valor según la posición que ocupe.</em></b>
+		</p>
+		<p>
+			<center>
+				<b>
+					<em>
+						<u><font size=4>Sistema de numeración decimal:</font></u>
+					</em>
+				</b>
+    			</center>
+		</p>
+		<p>
+			El sistema de numeración que utilizamos habitualmente es el <b>decimal</b>, que se compone de diez símbolos o dígitos (0, 1, 2, 3, 4, 5, 6, 7, 8 y 9) a los que otorga un valor <b>dependiendo de la posición</b> que ocupen en la cifra: unidades, decenas, centenas, millares, etc.
+		</p>
+		<p>
+			El valor de cada dígito está asociado al de una potencia de base 10, número que coincide con la cantidad de símbolos o dígitos del sistema decimal, y un exponente igual a la posición que ocupa el dígito menos uno, contando desde la derecha.
+		</p>
+		<p>
+			En este sistema el número 528, por ejemplo, significa:
+		</p>
+		<p>
+			<center>
+				5 centenas + 2 decenas + 8 unidades, es decir:
+			</center>
+		</p>
+		<p>
+			<center>
+				500 + 20 + 8       o, lo que es lo mismo,
+			</center>
+		</p>
+		<p>
+			<center>
+				5.10<sup>2</sup>+2.10<sup>2</sup>+8.10<sup>0</sup>=528
+			</center>
+		</p>
+		<p>
+			En el caso de números con decimales, la situación es análoga aunque, en este caso, algunos exponentes de las potencias serán negativos, concretamente el de los dígitos colocados a la dereca del separador decimal. Por ejemplo, el número 8245,97 se calcularía como:
+		</p>
+		<p>
+			<center>
+				5 centenas + 2 centenas + 4 decenas + 5 unidades + 9 décimos + 7 céntimos
+			</center>
+		</p>
+		<p>
+			<center>
+				8000 + 200 + 40 + 5 + 0,9 + 0,07 = 8245,97
+			</center>
+		</p>
+		<p>
+			<center>
+				8.10<sup>3</sup>+2.10<sup>2</sup>+4.10<sup>1</sup>+5.10<sup>0</sup>+9.10<sup>-1</sup>+7.10<sup>-2</sup>=8245,97
+			</center>
+		</p>
+		<p>
+			<center>
+				<b>
+					<em>
+						<u><font size=4>Sistema de numeración binario:</font></u>
+					</em>
+				</b>
+    			</center>
+		</p>
+		<p>
+			El sistema de numeración binario utiliza sólo dos dígitos, el cero (0) y el uno (1), que tienen distinto valor dependiendo de la posión que ocupen. El valor de cada posición es el de una potencia de base 2, elevada a un exponente igual a la posición del dígito menos uno. Se puede observar que, tal y como ocurría con el sistema decimal, a base de la potencia coincide con la cantidad de dígitos utilizados (2) para representar los números.
+		</p>
+		<p>
+			De acuerdo con estas reglas, el número binario 1011 tiene un valor que se calcula así:
+		</p>
+		<p>
+			<center>
+				1.2<sup>3</sup>+0.2<sup>2</sup>+1.2<sup>1</sup>+1.2<sup>0</sup>=8+0+2+1=11
+			</center>
+		</p>
+		<p>
+			<center>
+				y lo escribimos así:    1011<sub>2</sub>=11<sub>10</sub>
+			</center>
+		</p>
+		<p>
+			<center>
+				<b>
+					<em>
+						<u><font size=4>Conversión entre números decimales y binarios:</font></u>
+					</em>
+				</b>
+    			</center>
+		</p>
+		<p>
+			Convetir un número decimal al sistema binario es muy sencillo: basta con realizar divisiones sucesivas por 2 y colocar los restos obtenidos, en cada una ellas. Para formar el número binario tomaremos los restos <b>en orden inverso</b> al que han sido obtenido. Por ejemplo:
+		</p>
+		<p>
+			<img src="\Imagenes\1.png" alt="1"><b><font size=5>     77<sub>10</sub>=1001101<sub>2</sub></font></b>
+		</p>
+		<p>
+			La cantidad de dígitos necesarios, para representar un número en el sistema binario, dependerá del valor de diche número en el sistema decimal. En el caso anterior, para representar el número 77 han hecho falta 7 dígitos. Para representar números mayores a 255 se necesitarán más de ocho dígitos, porque 2<sup>8</sup>=256 y, por lo tanto, 255 es el número más grande que puede representarse con ocho dígitos.
+		</p>
+		<p>
+			Es importante distinguir entre los números que pueden representarse con n dígitos binarios, que es el 2<sup>n</sup>, y el mayor de esos números, que es una cantidad menos, es decir, 2<sup>n</sup>-1.
+		</p>
+		<p>
+			El proceso para convertir un número del sistema binario al decimal es aún más sencillo; basta con desarrollar el número, teniendo en cuenta que el valor de cada dígito está asociado a una potencia de 2, cuyo exponente es 0 en el bit situado más a la derecha, y se incrementa en una unidad según vamos avanzando posiciones hacia la izquierda, tal y como se muestra en el siguiente ejemplo:
+		</p>
+		<p>
+			<center>
+				1010011=1.2<sup>6</sup>+0.2<sup>5</sup>+1.2<sup>4</sup>+0.2<sup>3</sup>+0.2<sup>2</sup>+1.2<sup>1</sup>+1.2<sup>0</sup>=83
+			</center>
+		</p>
+		<p>
+			<center>
+				1010011<sub>2</sub>=83<sub>10</sub>
+			</center>
+		</p>
+		<p></p>
+		<p></p>
+		<p>
+			<center>
+				<h1>
+					<font size=5>
+						<b>
+							<q>SISTEMAS DE NUMERACIÓN OCTAL Y HEXADECIMAL</q>
+						</b>
+					</font>
+				</h1>
+			</center>
+		</p>
+		<p></p>
+		<p>
+			En este sistema, los números se representan con dieciséis símbolos: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B ,C, D, E y F. Se utilizan los caracteres A, B, C, D, E y F representando las cantidades decimales 10, 11, 12, 13, 14 y 15 respectivamente, porque no hay dígitos mayores que 9 en el sistema decimal. El valor de cada uno de estos símbolos depende, como es lógico, de su posición, que se calcula mediante potencias de base 16.
+		</p>
+		<p>
+			Ensayemos la conversión decimal a hexadecimal del número 1735:
+		</p>
+      	<p>
+			<a href="https://www.google.com.ar/search?q=test&ie=utf-8&oe=utf-8&gws_rd=cr&dcr=0&ei=GRfUWc6tJoWymwGq3bKgAw">
+				<img style="width:256px;height:256px" src="C:\Users\Usuario\Desktop\HTML\Imagenes\test.png" alt="test">
+				</img>
+			</a>
+		</p>
+		<p>
+			<audio autoplay>
+   				<source src="\Audio\Typewriter-SoundBible.com-285954942.mp3" type="audio/mp3">
+			</audio>
+		</p>
+	</BODY>
+</HTML>
