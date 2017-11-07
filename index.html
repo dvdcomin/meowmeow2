@@ -140,16 +140,73 @@
 		</p>
 		<p></p>
 		<p style="text-indent:50">
+			El inconveniente de la codificación binaria es que la representación de algunos números resulta muy larga, Por este motivo se utilizan otros sistemas de numeración que resulten más cómodos de escribir: el sistema octal y el sistema hexadecimal. Afortunadamente, resulta muy fácil convertir un número binario a octal o a hexadecimal.
+		</p>
+		<p>
+			<center>
+				<b>
+					<em>
+						<u><font size=4>Sistema de numeración octal</font></u>
+					</em>
+				</b>
+    			</center>
+		</p>
+		<p style="text-indent:50">
+			En el sistema octal, los números se representan mediante <b>ocho</b> dígitos diferentes; 0, 1, 2, 3, 4, 5, 6 y 7. Cada dígito tiene, naturalmente, un valor distinto dependiendo del lugar que ocupen. El valor de cada una de las posiciones viene determinado por las potencias de base 8. La conversión de un número decimal a octal, y viceversa, se realiza del mismo modo que la de los números binarios, aunque, lógicamente, se emplea como base el número 8 en vez del 2.
+		</p>
+		<p style="text-indent:50">
+			La conversión de un número decimal a octal se hace del mismo modo: mediante divisiones sucesivas por 8 y colocando los restos obtenidos en orden inverso. Por ejemplo:
+		</p>
+		<p>
+			<center>
+				122 : 8 = 15   Resto: 2
+				<p>15 : 8 = 1   Resto: 7</p>
+				<p>1 : 8 = 0   Resto: 1</p>
+				<p>122<sub>10</sub> = 172<sub>8</sub></p>
+			</center>
+		</p>
+		<p style="text-indent:50">
+			La conversión de un número octal a decimal es igualmente sencilla. Por ejemplo:
+		</p>
+		<p>
+			<center>
+				237<sub>8</sub>=2.8<sup>2</sup>+3.8<sup>1</sup>+7.8<sup>0</sup>=128+24+7=159<sub>10</sub>
+				<p>237<sub>8</sub>=159<sub>10</sub></p>
+			</center>
+		</p>
+		<p>
+			<center>
+				<h1>
+					<font size=5>
+						<b>
+							<hr><q>SISTEMA DE NUMERACIÓN HEXADECIMAL</q></hr>
+						</b>
+					</font>
+				</h1>
+			</center>
+		</p>
+		<p style="text-indent:50">
 			En este sistema, los números se representan con dieciséis símbolos: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B ,C, D, E y F. Se utilizan los caracteres A, B, C, D, E y F representando las cantidades decimales 10, 11, 12, 13, 14 y 15 respectivamente, porque no hay dígitos mayores que 9 en el sistema decimal. El valor de cada uno de estos símbolos depende, como es lógico, de su posición, que se calcula mediante potencias de base 16.
 		</p>
 		<p style="text-indent:50">
 			Ensayemos la conversión decimal a hexadecimal del número 1735:
 		</p>
-      	<p>
-			<a href="https://www.google.com.ar/search?q=test&ie=utf-8&oe=utf-8&gws_rd=cr&dcr=0&ei=GRfUWc6tJoWymwGq3bKgAw">
-				<img style="width:256px;height:256px" src="C:\Users\Usuario\Desktop\HTML\Imagenes\test.png" alt="test">
-				</img>
-			</a>
+		<p>
+			<center>
+				1735 : 16 = 108		Resto: 7
+				<p>108 : 16 = 6		Resto: C (12<sub>10</sub>)</p>
+				<p>6 : 16 = 0		Resto: 6</p>
+				<p>1735<sub>10</sub>=6C7<sub>16</sub></p>
+			</center>
+		</p>
+		<p style="text-indent:50">
+			Ensayemos también la conversión inversa, de hexadecimal a decimal número 1A3F:
+		</p>
+		<p>
+			<center>
+				1A3F<sub>16</sub>=1.16<sup>3</sup>+A.16<sup>2</sup>+3.16<sup>1</sup>+f.16<sup>0</sup>=6719<sub>10</sub>
+				<p>1A3F<sub>16</sub>=6719<sub>10</sub></p>
+			</center>
 		</p>
 		<p>
 			<audio autoplay>
