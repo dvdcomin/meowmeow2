@@ -99,6 +99,21 @@
 						Conversión entre números decimales y binarios:
     			</center>
 		</p>
+		<p></p>
+		<p></p>
+		<script>
+			function decToBin(inp) {
+				console.log(inp);
+				return (inp>>>0).toString(2);
+			}
+		</script>
+		<form>
+			<input id="entrada" type="text" value="0">
+			<input id="boton" type="button" value="Convertir" onclick="document.getElementById('resultado').innerHTML=decToBin(document.getElementById('entrada').value)">
+			<div id="resultado">Decimal a Binario</div>
+		</form>
+		<p></p>
+		<p></p>
 		<p class="global">
 			Convetir un número decimal al sistema binario es muy sencillo: basta con realizar divisiones sucesivas por 2 y colocar los restos obtenidos, en cada una ellas. Para formar el número binario tomaremos los restos <b>en orden inverso</b> al que han sido obtenido. Por ejemplo:
 		</p>
