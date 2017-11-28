@@ -18,6 +18,13 @@
 				font-size: 120%;
 				}
 		</style>
+		<script>
+			function decToBin(inp) {
+				console.log(inp);
+				return (inp>>>0).toString(2);
+			}
+		</script>
+
 	</HEAD>
 	<BODY bgcolor="gray">
 		<center class="titulo1">
@@ -101,12 +108,6 @@
 		</p>
 		<p></p>
 		<p></p>
-		<script>
-			function decToBin(inp) {
-				console.log(inp);
-				return (inp>>>0).toString(2);
-			}
-		</script>
 		<form>
 			<input id="entrada" type="text" value="0">
 			<input id="boton" type="button" value="Convertir" onclick="document.getElementById('resultado').innerHTML=decToBin(document.getElementById('entrada').value)">
