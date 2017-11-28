@@ -23,6 +23,14 @@
 				console.log(inp);
 				return (inp>>>0).toString(2);
 			}
+			function decToHex(inp) {
+				console.log(inp);
+				return (inp>>>0).toString(16);
+			}
+			function decToOct(inp) {
+				console.log(inp);
+				return (inp>>>0).toString(8);
+			}
 		</script>
 
 	</HEAD>
@@ -156,6 +164,13 @@
 						Sistema de numeración octal
     			</center>
 		</p>
+		<p></p>
+		<form>
+			<input id="entrada3" type="text" value="0">
+			<input id="boton3" type="button" value="Convertir" onclick="document.getElementById('resultado3').innerHTML=decToOct(document.getElementById('entrada3').value)">
+			<div id="resultado3">Decimal a Octal</div>
+			</form>
+		<p></p>
 		<p class="global">
 			En el sistema octal, los números se representan mediante <b>ocho</b> dígitos diferentes; 0, 1, 2, 3, 4, 5, 6 y 7. Cada dígito tiene, naturalmente, un valor distinto dependiendo del lugar que ocupen. El valor de cada una de las posiciones viene determinado por las potencias de base 8. La conversión de un número decimal a octal, y viceversa, se realiza del mismo modo que la de los números binarios, aunque, lógicamente, se emplea como base el número 8 en vez del 2.
 		</p>
@@ -184,6 +199,13 @@
 							<hr>"SISTEMA DE NUMERACIÓN HEXADECIMAL"</hr>
 			</center>
 		</p>
+		<p></p>
+		<form>
+			<input id="entrada2" type="text" value="0">
+			<input id="boton2" type="button" value="Convertir" onclick="document.getElementById('resultado2').innerHTML=decToHex(document.getElementById('entrada2').value)">
+			<div id="resultado2">Decimal a Hexadecimal</div>
+		</form>
+		<p></p>
 		<p class="global">
 			En este sistema, los números se representan con dieciséis símbolos: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B ,C, D, E y F. Se utilizan los caracteres A, B, C, D, E y F representando las cantidades decimales 10, 11, 12, 13, 14 y 15 respectivamente, porque no hay dígitos mayores que 9 en el sistema decimal. El valor de cada uno de estos símbolos depende, como es lógico, de su posición, que se calcula mediante potencias de base 16.
 		</p>
